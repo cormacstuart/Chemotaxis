@@ -36,7 +36,7 @@ Bacteria(int x, int y, int c){ //overloaded constructor, with differnt NUMBER of
   
   void show(){
     fill(myC);
-    ellipse(myX+(int)(Math.random()*10),myY+(int)(Math.random()*10),30,30);
+    ellipse(myX+(int)(Math.random()*10),myY+(int)(Math.random()*10),20,20);
   }
   
   void move(){
